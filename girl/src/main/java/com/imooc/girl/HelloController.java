@@ -48,4 +48,12 @@ public class HelloController {
         return name + " say " + id;
     }
 
+                        // 加不加 /都可以
+    @RequestMapping(value = "/req", method = RequestMethod.GET)
+    public Object reqParam(@RequestParam(value = "id", required = false, defaultValue = "0") Integer id) {
+        System.out.println("id = " + id);
+        return "id = " + id;
+    }
+
+
 }
