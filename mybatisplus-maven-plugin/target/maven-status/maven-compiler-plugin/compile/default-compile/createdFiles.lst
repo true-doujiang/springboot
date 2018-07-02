@@ -1,0 +1,15 @@
+com/baomidou/config/builder/ConfigBuilder.class
+com/baomidou/config/StrategyConfig.class
+com/baomidou/config/TemplateConfig.class
+com/baomidou/AbstractGenerateMojo.class
+com/baomidou/config/po/TableField.class
+com/baomidou/config/ConstVal.class
+com/baomidou/config/rules/IdStrategy.class
+com/baomidou/config/rules/NamingStrategy.class
+com/baomidou/GenerateMojo.class
+com/baomidou/config/po/TableInfo.class
+HelpMojo.class
+com/baomidou/config/rules/QuerySQL.class
+com/baomidou/config/DataSourceConfig.class
+com/baomidou/config/rules/DbType.class
+com/baomidou/config/PackageConfig.class

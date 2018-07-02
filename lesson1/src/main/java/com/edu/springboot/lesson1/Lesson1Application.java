@@ -12,11 +12,11 @@ import java.util.HashSet;
 
 /**
  * SpringBootApplication是一个组合注解
- @SpringBootConfiguration
- @EnableAutoConfiguration  自动装配了与第三方整合的组件
- @ComponentScan
-
- 而SpringBootConfiguration（springboot提供）又组合了 @Configuration（spring提供）
+ * @SpringBootConfiguration
+ * @EnableAutoConfiguration  自动装配了与第三方整合的组件
+ * @ComponentScan
+ *
+ * 而SpringBootConfiguration（springboot提供）又组合了 @Configuration（spring提供）
  */
 @SpringBootApplication
 //@ComponentScan   //同上？？
@@ -51,7 +51,5 @@ public class Lesson1Application {
 //        application.setSources(sets);
 //        ConfigurableApplicationContext context = application.run(args);
 //        context.getBean(Runnable.class).run();
-
-
     }
 }

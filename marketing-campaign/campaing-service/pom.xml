@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>marketing-campaign</artifactId>
+        <groupId>com.dianda.marketing</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>campaing-service</artifactId>
+
+    <properties>
+        <spring.boot.starter.web.version>2.0.1.RELEASE</spring.boot.starter.web.version>
+        <droop.version>7.7.0.Final</droop.version>
+    </properties>
+
+    <dependencies>
+        <!-- 上边引入 parent，因此 下边无需指定版本 -->
+        <!-- 包含 mvc,aop 等jar资源 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>${spring.boot.starter.web.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-redis</artifactId>
+            <version>${spring-data-redis.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.1</version>
+        </dependency>
+
+        <!-- campaign -->
+        <dependency>
+            <groupId>com.dianda.marketing</groupId>
+            <artifactId>campaign-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.dianda.marketing</groupId>
+            <artifactId>campaign-orm</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId></groupId>-->
+            <!--<artifactId></artifactId>-->
+        <!--</dependency>-->
+
+
+
+    </dependencies>
+
+</project>

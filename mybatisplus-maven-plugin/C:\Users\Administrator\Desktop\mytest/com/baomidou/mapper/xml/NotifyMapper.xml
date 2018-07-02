@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.baomidou.mapper.NotifyMapper">
+
+	<resultMap id="BaseResultMap" type="com.baomidou.entity.Notify">
+		<id column="id" property="id" />
+		<result column="user_id" property="id" />
+		<result column="open_id" property="id" />
+		<result column="template_id" property="id" />
+		<result column="form_id" property="id" />
+		<result column="data" property="data" />
+		<result column="notify_result" property="result" />
+		<result column="notify_result_data" property="resultData" />
+		<result column="notify_time" property="time" />
+		<result column="create_time" property="time" />
+		<result column="update_time" property="time" />
+		<result column="is_deleted" property="deleted" />
+	</resultMap>
+
+    <!-- 通用查询结果列-->
+    <sql id="Base_Column_List">
+        id, user_id AS id, open_id AS id, template_id AS id, form_id AS id, data, notify_result AS result, notify_result_data AS resultData, notify_time AS time, create_time AS time, update_time AS time, is_deleted AS deleted
+    </sql>
+</mapper>

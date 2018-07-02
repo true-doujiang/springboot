@@ -1,0 +1,15 @@
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/config/rules/NamingStrategy.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/config/ConstVal.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/config/StrategyConfig.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/config/builder/ConfigBuilder.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/config/po/TableInfo.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/config/PackageConfig.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/config/po/TableField.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/config/rules/DbType.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/target/generated-sources/plugin/HelpMojo.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/config/rules/QuerySQL.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/config/DataSourceConfig.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/GenerateMojo.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/config/TemplateConfig.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/config/rules/IdStrategy.java
+/Users/huanhuanyou/dianda/springboot/mybatisplus-maven-plugin/src/main/java/com/baomidou/AbstractGenerateMojo.java
